@@ -142,7 +142,7 @@ This tutorial outlines the creation of an Active Directory infrastructure within
 <img width="582" alt="Screenshot 2025-06-04 at 3 18 48 PM" src="https://github.com/user-attachments/assets/7807a0fc-16f4-4206-9476-cb9fd0df6e98" />
  </p>
 <p>
-- Now for our final act of the eveving, we will make sure the DNS Server of Client-1 is set to DC-1's Private IP address. In PowerShell use the command ipconfig /all and press enter. 🪄 Abracadabra and there it is folks! 
+- Now for our final act of the eveving, we will make sure the DNS Server of Client-1 is set to DC-1's Private IP address. In PowerShell use the command ipconfig /all and press enter.
 </p>
 <br />
 
