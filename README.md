@@ -63,7 +63,7 @@ This tutorial outlines the creation of an Active Directory infrastructure within
 <br />
 
 <p>
-<img width="850" alt="AD11" src="https://github.com/user-attachments/assets/0cb1a9c1-0f68-4030-8383-b0add4594a84" />
+<img width="1512" alt="Screenshot 2025-06-04 at 3 03 23 PM" src="https://github.com/user-attachments/assets/5aa4b72d-c965-4040-b6f0-f655293f5a54" />
  </p>
 <p>
 -You will be back in the IP configurations screen after clicking Save. Here, we can confirm our changes were saved by looking next to the Private IP address.
@@ -71,7 +71,7 @@ This tutorial outlines the creation of an Active Directory infrastructure within
 <br />
 
 <p>
-<img width="850" alt="AD14" src="https://github.com/user-attachments/assets/5eef23b7-ecfb-4b1c-aa60-8dc9a5d20d6d" />
+<img width="593" alt="Screenshot 2025-06-04 at 3 33 01 PM" src="https://github.com/user-attachments/assets/4aa092d5-830d-44e9-9ea5-44480b638b57" />
  </p>
 <p>
 - Minimize Azure for now and hop over to Remote Desktop (Windows) or Windows App (MacOS). Use DC-1's Public IP address and create a new RDP connection.
@@ -83,10 +83,10 @@ This tutorial outlines the creation of an Active Directory infrastructure within
 <table>
   <tr>
     <td>
-      <img width="1000" alt="AD15" src="https://github.com/user-attachments/assets/bb4d885d-527a-4e07-9882-d9ab13889204" />
+      <img width="1036" alt="Screenshot 2025-06-04 at 3 07 15 PM" src="https://github.com/user-attachments/assets/63d9de34-cae9-4357-a882-59dc6bbcef16" />
     </td>
     <td>
-      <img width="1000" alt="AD16" src="https://github.com/user-attachments/assets/2ce39e9f-e408-4ccf-8c6e-abf9ec8e22b2" />
+      <img width="1034" alt="Screenshot 2025-06-04 at 3 07 43 PM" src="https://github.com/user-attachments/assets/1f1e46ad-3786-47f1-9a9c-3c8fe60647c5" />
     </td>
   </tr>
 </table>
@@ -98,10 +98,10 @@ This tutorial outlines the creation of an Active Directory infrastructure within
 <table>
   <tr>
     <td>
-      <img width="1000" alt="AD18" src="https://github.com/user-attachments/assets/86c1c816-3a80-4687-a39f-cb723df05860" />
+      <img width="1512" alt="Screenshot 2025-06-04 at 3 08 49 PM" src="https://github.com/user-attachments/assets/64fef3d2-8d56-459a-a744-8d587a4a0a08" />
     </td>
     <td>
-      <img width="1000" alt="AD19" src="https://github.com/user-attachments/assets/2341ccd3-6165-48a1-8663-f1c2a1f08629" />
+      <img width="1512" alt="Screenshot 2025-06-04 at 3 10 41 PM" src="https://github.com/user-attachments/assets/dff76fec-0b44-4ad5-af67-1b36d47d5c01" />
     </td>
   </tr>
 </table>
@@ -114,7 +114,7 @@ This tutorial outlines the creation of an Active Directory infrastructure within
 <br />
 
 <p>
-<img width="850" alt="AD22" src="https://github.com/user-attachments/assets/07428d49-90b7-4573-b1f4-a4441a1e794e" />
+<img width="1512" alt="Screenshot 2025-06-04 at 3 12 03 PM" src="https://github.com/user-attachments/assets/179dcab0-12bf-4642-8ac4-6cc951685268" />
  </p>
 <p>
 - Since we changed the DNS Server for Client-1, we need to restart the VM. Run,🏃‍♂️, back to the Virtural machines main screen and restart Client-1.  
@@ -123,7 +123,7 @@ This tutorial outlines the creation of an Active Directory infrastructure within
 <br />
 
 <p>
-<img width="850" alt="AD23" src="https://github.com/user-attachments/assets/abe07877-230d-43fd-9678-57fce300ed30" />
+<img width="786" alt="Screenshot 2025-06-04 at 3 15 24 PM" src="https://github.com/user-attachments/assets/f1dc500c-a285-4391-9d77-e94dab8e1f0c" />
  </p>
 <p>
 - Once Client-1 finishes restarting, grab your notes with the Public IP adrresses, and use Client-1's Public IP to login using RDP. (Don't forget username and password.) 😉</p>
@@ -131,7 +131,7 @@ This tutorial outlines the creation of an Active Directory infrastructure within
 <br />
 
 <p>
-<img width="850" alt="AD24" src="https://github.com/user-attachments/assets/fb7e0ea1-3cba-459d-a6b4-f2f9350ff25f" />
+<img width="494" alt="Screenshot 2025-06-04 at 3 17 24 PM" src="https://github.com/user-attachments/assets/a6876cf8-6d26-4ccf-9059-43bad609656f" />
  </p>
 <p>
 - From PowerShell, we are going to test our connection from Client-1 to DC-1 (Our Server) with command ping 10.0.0.4 and press enter. This shows us that both VMs are on the same Virtual Network and we disabled DC-1's firewall correctly.
@@ -139,7 +139,7 @@ This tutorial outlines the creation of an Active Directory infrastructure within
 <br />
 
 <p>
-<img width="850" alt="AD25" src="https://github.com/user-attachments/assets/4fce9965-3fbb-4541-a4f6-fcce4c33dfad" />
+<img width="582" alt="Screenshot 2025-06-04 at 3 18 48 PM" src="https://github.com/user-attachments/assets/7807a0fc-16f4-4206-9476-cb9fd0df6e98" />
  </p>
 <p>
 - Now for our final act of the eveving, we will make sure the DNS Server of Client-1 is set to DC-1's Private IP address. In PowerShell use the command ipconfig /all and press enter. 🪄 Abracadabra and there it is folks! 
@@ -149,6 +149,9 @@ This tutorial outlines the creation of an Active Directory infrastructure within
 <h2>✅ Conclusion</h2>
 
 <p>
-This concludes our project. We have successfully built the infrastructure we need for Active Directory in Azure. We will use this build to complete a few more AD projects. Next, we will deploy Active Directory. Isn't Cloud Computing cool? Don't forget to Stop (turn off) the VMs in Azure. As always, Thank You for your time and viewing this Project. We'll see you on the next one! 😎      
+And that’s it. You just set up a solid cloud setup for running Active Directory inside Azure.
+With just a couple of VMs and the right settings, you now have your own little network running in the cloud — no wires, no desks, no stress.
+Don’t forget to Stop your VMs when you’re done so Azure doesn’t keep charging you.
+Appreciate you for rocking with the project. We’ll catch you in the next one 😎   
 </p>
 <br />
