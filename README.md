@@ -9,12 +9,12 @@
   </tr>
 </table>
 
-<h1>Creating Active Directory Infrastructure in the Cloud (Azure)</h1>
+<h1>Creating Active Directory Infrastructure in Azure</h1>
 This tutorial outlines the creation of an Active Directory infrastructure within Azure. We will use this build to deploy and configure Active Directory in a future project. <br />
 
 <h2>⚠️ Prerequisite</h2>
 
-- [Creating Virtual Machines in the Cloud](https://github.com/joshuaheck1/VM-creation)
+- [Creating Virtual Machines in the Cloud](https://github.com/JavonGil/Creating-VM-S)
 <p>(Reference this project for help creating Virtual Manchines if needed.)</p>
 
 <h2>💻 Environments and Technologies Used</h2>
@@ -24,7 +24,7 @@ This tutorial outlines the creation of an Active Directory infrastructure within
 - Active Directory Domain Services
 - PowerShell
 
-<h2>👨‍💻 Operating Systems Used </h2>
+<h2>🖥️ Operating Systems Used </h2>
 
 - macOS Sequoia
 - Windows Server 2022
@@ -34,19 +34,19 @@ This tutorial outlines the creation of an Active Directory infrastructure within
 <h2>⚙️ Deployment and Configuration Steps</h2>
 
 <p>
-<img width="800" alt="AD7" src="https://github.com/user-attachments/assets/3324e347-dda1-4ace-bb71-5417daaa7673" />
+<img width="1247" alt="Screenshot 2025-06-04 at 3 00 03 PM" src="https://github.com/user-attachments/assets/f4b882e5-2bec-4e23-87fe-a9746917784b" />
 
 </p>
 
 <p>
-- In Azure, create a new Resource Group and two Virtual Machines. Ensure the VMs are in the same Virtual Network and Location (Region). Reference the project above in Prerequisites if you need a quick reminder.
-<p>- Name the first VM "DC-1" (Domain Controller), set the image to Windows Server 2022, and at least (2 vcpus, 8 GiB memory) for size.</p>
-<p>- Name the second VM "Client-1", set the image to Windows 10, and at least (2 vcpus, 8 GiB memory) for size.</p>
-<p>- This would be a good time to note the Public IP addresses of both VMs and the Private IP for DC-1. We will need them later for RDP.</p>
+- In Azure, create a new Resource Group and two Virtual Machines. Ensure the VMs are in the same Virtual Network and Region. Reference the project above in Prerequisites if you need a quick reminder.
+<p>- Name the first VM "DC-1" (Domain Controller), set the image to Windows Server 2022, and at least (2 vcpus, 8 GiB memory).</p>
+<p>- Name the second VM "Client-1", set the image to Windows 10, and at least (2 vcpus, 8 GiB memory).</p>
+<p>- This would be a good time to write the Public IP addresses of both VMs and the Private IP for DC-1. We will need them later for RDP.</p>
 <br />
 
 <p>
-<img width="800" alt="AD8" src="https://github.com/user-attachments/assets/77d02814-7bb0-4f8e-a1f9-1ee2e5598dfc" />
+<img width="1512" alt="Screenshot 2025-06-04 at 3 01 18 PM" src="https://github.com/user-attachments/assets/4bc1b949-5062-4aaf-b081-76b59468d5ef" />
 </p>
 
 <p>
