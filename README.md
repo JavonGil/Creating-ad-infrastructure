@@ -150,7 +150,7 @@ This tutorial outlines the creation of an Active Directory infrastructure within
 
 <p>
 And that’s it. You just set up a solid cloud setup for running Active Directory inside Azure.
-With just a couple of VMs and the right settings, you now have your own little network running in the cloud — no wires, no desks, no stress.
+With just a couple of VMs and the right settings, you now have your own little network running in the cloud no wires, no desks, no stress.
 Don’t forget to Stop your VMs when you’re done so Azure doesn’t keep charging you.
 Appreciate you for rocking with the project. We’ll catch you in the next one 😎   
 </p>
